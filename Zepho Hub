@@ -1,6 +1,6 @@
 print("❗️Zepho Hub is Loaded❗️")
 
-print("❗️Zepho Hub 2.1 Version❗️")
+print("❗️Zepho Hub 2.2 Version❗️")
 
 print("❗️Zepho Hub By Zepho❗️")
 
@@ -82,6 +82,15 @@ local Section = Tab:NewSection("Ragdoll Engine")
 
 Section:NewButton("SystemBroken", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+end)
+
+local Tab = Window:NewTab("Fruit Battlegrounds")
+
+local Section = Tab:NewSection("Fruit Battlegrounds")
+
+
+Section:NewButton("AutoFarm Fruit Battle", "ButtonInfo", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/BillsTheGod/V3RMILLION_PROJECTS/main/Fruit%20Battlegrounds.lua")))()   
 end)
 
 local Tab = Window:NewTab("MM2")
