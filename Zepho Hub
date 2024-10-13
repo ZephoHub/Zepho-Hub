@@ -1,6 +1,6 @@
 print("❗️Zepho Hub is Loaded❗️")
 
-print("❗️Zepho Hub 2.4 Version❗️")
+print("❗️Zepho Hub 2.5 Version❗️")
 
 print("❗️Zepho Hub By Zepho❗️")
 
@@ -18,8 +18,8 @@ Section:NewButton("Azure Modded", "ButtonInfo", function()
 end)
 
 
-Section:NewButton("StarHook", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Dekos-lgbty/dahood/main/starhook"))()
+Section:NewButton("Lunar Vip", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZephoHub/Lunar-Vip/refs/heads/main/Lunar%20Vip",true))();
 end)
 
 
