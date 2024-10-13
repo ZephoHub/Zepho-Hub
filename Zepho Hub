@@ -1,6 +1,6 @@
 print("❗️Zepho Hub is Loaded❗️")
 
-print("❗️Zepho Hub 2.3 Version❗️")
+print("❗️Zepho Hub 2.4 Version❗️")
 
 print("❗️Zepho Hub By Zepho❗️")
 
@@ -55,6 +55,33 @@ end)
 
 Section:NewButton("Trash Talk", "Y", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/UqDvLVuP"))()
+end)
+
+local Section = Tab:NewSection("Legendary Gun Skin Changer")
+
+
+Section:NewButton("Inferno", "ButtonInfo", function()
+    loadstring(game:HttpGet('pastebin.com/raw/KcmP6D38'))()
+end)
+
+
+Section:NewButton("Galaxy", "ButtonInfo", function()
+    loadstring(game:HttpGet('pastebin.com/raw/DKTgg9Wb'))()
+end)
+
+
+Section:NewButton("Matrix", "ButtonInfo", function()
+    loadstring(game:HttpGet('pastebin.com/raw/pe5fdv4L'))()
+end)
+
+
+Section:NewButton("RedDeath", "ButtonInfo", function()
+    loadstring(game:HttpGet('pastebin.com/raw/4ah5GbkM'))()
+end)
+
+
+Section:NewButton("GoldGlory", "ButtonInfo", function()
+    loadstring(game:HttpGet('pastebin.com/raw/SK2LXs20'))()
 end)
 
 local Tab = Window:NewTab("Build A Boat")
