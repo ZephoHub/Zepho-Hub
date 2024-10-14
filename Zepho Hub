@@ -28,6 +28,16 @@ Section:NewButton("SwagMode", "ButtonInfo", function()
 end)
 
 
+Section:NewButton("Faded", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded-Grid/main/YesEpic", true))()
+end)
+
+
+Section:NewButton("Control", "Ctrl + G", function()
+    loadstring(game:HttpGet("pastebin.com/raw/WZ2DNGjY"))()
+end)
+
+
 Section:NewButton("CamLock", "Q", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/vPsAqg8L"))()
 end)
