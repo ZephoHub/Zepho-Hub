@@ -1,12 +1,12 @@
-print("❗️Zepho Hub is Loaded❗️")
+print("❗️ Zepho Hub is Loaded ❗️")
 
-print("❗️Zepho Hub 2.7 Version❗️")
+print("❗️ Zepho Hub 2.8 Version ❗️")
 
-print("❗️Zepho Hub By Zepho❗️")
+print("❗️ Zepho Hub By Zepho ❗️")
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 
-local Window = Library.CreateLib("Zepho Hub Premium", "RJTheme8")
+local Window = Library.CreateLib("ZEPHO HUB", "RJTheme8")
 
 local Tab = Window:NewTab("Da Hood")
 
@@ -170,4 +170,9 @@ end)
 
 Section:NewButton("Name Esp", "ButtonInfo", function()
     loadstring(game:HttpGet("pastebin.com/raw/ARFjYZ4G"))()
+end)
+
+
+Section:NewButton("Chat Spam [No Bind]", "ButtonInfo", function()
+    loadstring(game:HttpGet("pastebin.com/raw/r6CZaPa5"))()
 end)
