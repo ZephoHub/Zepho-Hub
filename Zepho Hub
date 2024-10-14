@@ -1,6 +1,6 @@
 print("❗️Zepho Hub is Loaded❗️")
 
-print("❗️Zepho Hub 2.7 Version❗️")
+print("❗️Zepho Hub 2.5 Version❗️")
 
 print("❗️Zepho Hub By Zepho❗️")
 
@@ -28,7 +28,7 @@ Section:NewButton("SwagMode", "ButtonInfo", function()
 end)
 
 
-Section:NewButton("Faded", "ButtonInfo", function()
+Section:NewButton("Faded [I do not recommend it]", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded-Grid/main/YesEpic", true))()
 end)
 
