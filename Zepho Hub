@@ -1,6 +1,6 @@
 print("❗️ Zepho Hub is Loaded ❗️")
 
-print("❗️ Zepho Hub 2.9 Version ❗️")
+print("❗️ Zepho Hub 3.0 Version ❗️")
 
 print("❗️ Zepho Hub By Zepho ❗️")
 
@@ -65,6 +65,11 @@ end)
 
 Section:NewButton("Trash Talk", "Y", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/UqDvLVuP"))()
+end)
+
+
+Section:NewButton("Trash Talk #2", "Y", function()
+    loadstring(game:HttpGet("pastebin.com/99uPNAKc"))()
 end)
 
 local Section = Tab:NewSection("Legendary Gun Skin Changer")
