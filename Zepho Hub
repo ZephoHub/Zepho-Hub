@@ -1,6 +1,6 @@
 print("❗️ Zepho Hub is Loaded ❗️")
 
-print("❗️ Zepho Hub 2.8 Version ❗️")
+print("❗️ Zepho Hub 2.9 Version ❗️")
 
 print("❗️ Zepho Hub By Zepho ❗️")
 
@@ -165,6 +165,11 @@ end)
 
 Section:NewButton("Nameless Admin", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))()
+end)
+
+
+Section:NewButton("Universal Aimbot", "ButtonInfo", function()
+    loadstring(game:HttpGet("pastebin.com/raw/RVc3cvas"))()
 end)
 
 
