@@ -63,14 +63,10 @@ Section:NewButton("Headless", "ButtonInfo", function()
 end)
 
 
-Section:NewButton("Trash Talk", "Y", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/UqDvLVuP"))()
+Section:NewButton("Trash Talk [UPDATE]", "Y", function()
+    loadstring(game:HttpGet("pastebin.com/raw/TeX55Dqe"))()
 end)
 
-
-Section:NewButton("Trash Talk #2", "Y", function()
-    loadstring(game:HttpGet("pastebin.com/99uPNAKc"))()
-end)
 
 local Section = Tab:NewSection("Legendary Gun Skin Changer")
 
