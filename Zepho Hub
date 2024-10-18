@@ -18,6 +18,11 @@ Section:NewButton("Azure Modded", "ButtonInfo", function()
 end)
 
 
+Section:NewButton("Voke.Lua", "ButtonInfo", function()
+    loadstring(game:HttpGet("pastebin.com/raw/n2DViXnd"))()
+end)
+
+
 Section:NewButton("Lunar Vip", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ZephoHub/Lunar-Vip/refs/heads/main/Lunar%20Vip",true))();
 end)
@@ -28,13 +33,8 @@ Section:NewButton("SwagMode", "ButtonInfo", function()
 end)
 
 
-Section:NewButton("Faded [I do not recommend it]", "ButtonInfo", function()
+Section:NewButton("Faded [❗️ for some functions, you can get a permanent ban ❗️]", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded-Grid/main/YesEpic", true))()
-end)
-
-
-Section:NewButton("Vortex [when injecting, the cmd opens]", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex", true))()
 end)
 
 
