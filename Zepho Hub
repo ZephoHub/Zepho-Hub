@@ -1,6 +1,6 @@
 print("❗️ Zepho Hub is Loaded ❗️")
 
-print("❗️ Zepho Hub 3.0 Version ❗️")
+print("❗️ Zepho Hub 3.1 Version ❗️")
 
 print("❗️ Zepho Hub By Zepho ❗️")
 
@@ -30,6 +30,11 @@ end)
 
 Section:NewButton("Faded [I do not recommend it]", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded-Grid/main/YesEpic", true))()
+end)
+
+
+Section:NewButton("Vortex [when injecting, the cmd opens]", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ImagineProUser/vortexdahood/main/vortex", true))()
 end)
 
 
