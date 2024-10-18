@@ -1,6 +1,6 @@
 print("❗️ Zepho Hub is Loaded ❗️")
 
-print("❗️ Zepho Hub 3.0 Version ❗️")
+print("❗️ Zepho Hub 2.8 Version ❗️")
 
 print("❗️ Zepho Hub By Zepho ❗️")
 
@@ -63,7 +63,7 @@ Section:NewButton("Headless", "ButtonInfo", function()
 end)
 
 
-Section:NewButton("Trash Talk [UPDATE]", "Y", function()
+Section:NewButton("Trash Talk", "Y", function()
     loadstring(game:HttpGet("pastebin.com/raw/TeX55Dqe"))()
 end)
 
