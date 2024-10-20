@@ -118,6 +118,15 @@ Section:NewButton("no working :(", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))() 
 end)
 
+local Tab = Window:NewTab("Blade Ball")
+
+local Section = Tab:NewSection("Blade Ball")
+
+
+Section:NewButton("OSS Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ossfr/BladeBall/main/Freemium.lua"))()
+end)
+
 local Tab = Window:NewTab("MM2")
 
 local Section = Tab:NewSection("Murder Mystery 2")
