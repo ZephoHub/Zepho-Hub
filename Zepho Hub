@@ -6,7 +6,7 @@ print("❗️ Zepho Hub By Zepho ❗️")
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
 
-local Window = Library.CreateLib("ZEPHO HUB", "RJTheme8")
+local Window = Library.CreateLib("Zepho Hub Premium :)", "RJTheme8")
 
 local Tab = Window:NewTab("Da Hood")
 
@@ -18,11 +18,6 @@ Section:NewButton("Azure Modded", "ButtonInfo", function()
 end)
 
 
-Section:NewButton("Voke.Lua", "ButtonInfo", function()
-    loadstring(game:HttpGet("pastebin.com/raw/n2DViXnd"))()
-end)
-
-
 Section:NewButton("Lunar Vip", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ZephoHub/Lunar-Vip/refs/heads/main/Lunar%20Vip",true))();
 end)
@@ -30,11 +25,6 @@ end)
 
 Section:NewButton("SwagMode", "ButtonInfo", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
-end)
-
-
-Section:NewButton("Faded [❗️ for some functions, you can get a permanent ban ❗️]", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded-Grid/main/YesEpic", true))()
 end)
 
 
@@ -68,13 +58,13 @@ Section:NewButton("Headless", "ButtonInfo", function()
 end)
 
 
-Section:NewButton("Trash Talk", "M", function()
-    loadstring(game:HttpGet("pastebin.com/raw/BjipBDPS"))()
+Section:NewButton("Trash Talk #1", "Y", function()
+    loadstring(game:HttpGet("pastebin.com/raw/rjKnVTAj"))()
 end)
 
 
-Section:NewButton("Trash Talk #2", "Y", function()
-    loadstring(game:HttpGet("pastebin.com/raw/rjKnVTAj"))()
+Section:NewButton("Trash Talk #2", "M", function()
+    loadstring(game:HttpGet("pastebin.com/raw/BjipBDPS"))()
 end)
 
 
@@ -121,33 +111,6 @@ local Section = Tab:NewSection("Blox Fruits")
 
 Section:NewButton("no working :(", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))() 
-end)
-
-local Tab = Window:NewTab("Ragdoll Engine")
-
-local Section = Tab:NewSection("Ragdoll Engine")
-
-
-Section:NewButton("SystemBroken", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
-end)
-
-local Tab = Window:NewTab("Fruit Battlegrounds")
-
-local Section = Tab:NewSection("Fruit Battlegrounds")
-
-
-Section:NewButton("AutoFarm Fruit Battle", "ButtonInfo", function()
-    loadstring(game:HttpGet(("https://raw.githubusercontent.com/BillsTheGod/V3RMILLION_PROJECTS/main/Fruit%20Battlegrounds.lua")))()   
-end)
-
-local Tab = Window:NewTab("Pop It Trading")
-
-local Section = Tab:NewSection("Pop It Trading")
-
-
-Section:NewButton("Uni Hub", "ButtonInfo", function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/dcyuEgyK'))()
 end)
 
 local Tab = Window:NewTab("MM2")
