@@ -155,3 +155,8 @@ end)
 Section:NewButton("Chat Spam [No Bind]", "ButtonInfo", function()
     loadstring(game:HttpGet("pastebin.com/raw/r6CZaPa5"))()
 end)
+
+
+Section:NewButton("Chat Spam [Y]", "ButtonInfo", function()
+    loadstring(game:HttpGet("pastebin.com/raw/7mAKzeLX"))()
+end)
