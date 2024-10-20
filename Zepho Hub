@@ -18,6 +18,11 @@ Section:NewButton("Azure Modded", "ButtonInfo", function()
 end)
 
 
+Section:NewButton("StarHook", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Dekos-lgbty/dahood/main/starhook"))()
+end)
+
+
 Section:NewButton("Lunar Vip", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ZephoHub/Lunar-Vip/refs/heads/main/Lunar%20Vip",true))();
 end)
