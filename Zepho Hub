@@ -94,15 +94,6 @@ Section:NewButton("GoldGlory", "ButtonInfo", function()
     loadstring(game:HttpGet('pastebin.com/raw/SK2LXs20'))()
 end)
 
-local Tab = Window:NewTab("Blox Fruits")
-
-local Section = Tab:NewSection("Blox Fruits")
-
-
-Section:NewButton("no working :(", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))() 
-end)
-
 local Tab = Window:NewTab("Blade Ball")
 
 local Section = Tab:NewSection("Blade Ball")
