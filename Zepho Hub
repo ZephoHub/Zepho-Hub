@@ -67,7 +67,6 @@ Section:NewButton("Trash Talk #2", "M", function()
     loadstring(game:HttpGet("pastebin.com/raw/BjipBDPS"))()
 end)
 
-
 local Section = Tab:NewSection("Legendary Gun Skin Changer")
 
 
@@ -93,15 +92,6 @@ end)
 
 Section:NewButton("GoldGlory", "ButtonInfo", function()
     loadstring(game:HttpGet('pastebin.com/raw/SK2LXs20'))()
-end)
-
-local Tab = Window:NewTab("Build A Boat")
-
-local Section = Tab:NewSection("Build A Boat For Treasure")
-
-
-Section:NewButton("Fly to Gold", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://scripts.waza80.com/script/BuildABoat"))()
 end)
 
 local Tab = Window:NewTab("Blox Fruits")
