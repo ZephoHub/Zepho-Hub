@@ -113,6 +113,11 @@ Section:NewButton("OSS Hub", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ossfr/BladeBall/main/Freemium.lua"))()
 end)
 
+
+Section:NewButton("Auto Parry", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://scriptblox.com/raw/UPD-Blade-Ball-op-autoparry-with-visualizer-8652"))()
+end)
+
 local Tab = Window:NewTab("MM2")
 
 local Section = Tab:NewSection("Murder Mystery 2")
