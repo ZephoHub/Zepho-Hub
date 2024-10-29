@@ -33,6 +33,11 @@ Section:NewButton("SwagMode", "ButtonInfo", function()
 end)
 
 
+Section:NewButton("TBO", "ButtonInfo", function()
+    loadstring(game:HttpGet('pastebin.com/raw/BuLdpGKv'))()
+end)
+
+
 Section:NewButton("CamLock", "Q", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/vPsAqg8L"))()
 end)
@@ -65,16 +70,6 @@ end)
 
 Section:NewButton("Trash Talk #2", "M", function()
     loadstring(game:HttpGet("pastebin.com/raw/BjipBDPS"))()
-end)
-
-
-Section:NewButton("Donate Talk #1", "Y", function()
-    loadstring(game:HttpGet("pastebin.com/raw/31DP01ZX"))()
-end)
-
-
-Section:NewButton("Donate Talk #2", "M", function()
-    loadstring(game:HttpGet("pastebin.com/raw/gJCwYmcq"))()
 end)
 
 local Section = Tab:NewSection("Legendary Gun Skin Changer")
