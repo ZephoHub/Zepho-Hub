@@ -104,13 +104,8 @@ local Tab = Window:NewTab("Blade Ball")
 local Section = Tab:NewSection("Blade Ball")
 
 
-Section:NewButton("OSS Hub", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ossfr/BladeBall/main/Freemium.lua"))()
-end)
-
-
-Section:NewButton("Auto Parry", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://scriptblox.com/raw/UPD-Blade-Ball-op-autoparry-with-visualizer-8652"))()
+Section:NewButton("Plutonium.lua", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()
 end)
 
 local Tab = Window:NewTab("MM2")
@@ -125,6 +120,11 @@ end)
 
 Section:NewButton("Vertex", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/vertex-peak/vertex/refs/heads/main/loadstring"))("t.me/arceusxscripts")
+end)
+
+
+Section:NewButton("Plutonium.lua", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()
 end)
 
 
