@@ -123,11 +123,6 @@ Section:NewButton("Vertex", "ButtonInfo", function()
 end)
 
 
-Section:NewButton("Plutonium.lua", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()
-end)
-
-
 Section:NewButton("Vynixu's", "ButtonInfo", function()
     loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()()
 end)
