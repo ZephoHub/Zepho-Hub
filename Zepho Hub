@@ -147,6 +147,11 @@ Section:NewButton("Nameless Admin", "ButtonInfo", function()
 end)
 
 
+Section:NewButton("Plutonium.lua", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()
+end)
+
+
 Section:NewButton("Universal Aimbot", "ButtonInfo", function()
     loadstring(game:HttpGet("pastebin.com/raw/RVc3cvas"))()
 end)
