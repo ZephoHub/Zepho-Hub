@@ -53,11 +53,6 @@ Section:NewButton("AntiLock", "Z", function()
 end)
 
 
-Section:NewButton("Tryhard Anims", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/sMRz3dEH"))()
-end)
-
-
 Section:NewButton("Headless", "ButtonInfo", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/GYt9zkE1"))()
 end)
