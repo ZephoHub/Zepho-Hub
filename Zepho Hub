@@ -14,7 +14,7 @@ local Section = Tab:NewSection("Da Hood")
 
 
 Section:NewButton("Azure Modded", "ButtonInfo", function()
-    loadstring(game:HttpGet("pastebin.com/raw/nCcygRaY"))()
+    loadstring(game:HttpGet("pastebin.com/raw/f2kAxBK9"))()
 end)
 
 
