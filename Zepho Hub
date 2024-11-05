@@ -100,7 +100,7 @@ end)
 
 
 Section:NewButton("Lunax Hub [Key System]", "ButtonInfo", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Alexisisback/Universall/refs/heads/main/Blade%20ball.lua", true))()
 end)
 
 local Tab = Window:NewTab("MM2")
