@@ -13,11 +13,6 @@ local Tab = Window:NewTab("Da Hood")
 local Section = Tab:NewSection("Da Hood")
 
 
-Section:NewButton("Azure Modded", "ButtonInfo", function()
-    loadstring(game:HttpGet("pastebin.com/raw/f2kAxBK9"))()
-end)
-
-
 Section:NewButton("StarHook", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Dekos-lgbty/dahood/main/starhook"))()
 end)
