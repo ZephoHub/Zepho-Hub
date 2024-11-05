@@ -98,6 +98,11 @@ Section:NewButton("Plutonium.lua", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()
 end)
 
+
+Section:NewButton("Lunax Hub [Key System]", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/PawsThePaw/Plutonium.AA/main/Plutonium.Loader.lua", true))()
+end)
+
 local Tab = Window:NewTab("MM2")
 
 local Section = Tab:NewSection("Murder Mystery 2")
