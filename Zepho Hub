@@ -108,7 +108,7 @@ local Tab = Window:NewTab("Fisch")
 local Section = Tab:NewSection("Fisch")
 
 
-Section:NewButton("XD", "ButtonInfo", function()
+Section:NewButton("Russian Script", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/thmaus12/fisch/refs/heads/main/scriptmausrb"))()
 end)
 
