@@ -103,6 +103,15 @@ Section:NewButton("Lunax Hub [Key System]", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Alexisisback/Universall/refs/heads/main/Blade%20ball.lua", true))()
 end)
 
+local Tab = Window:NewTab("Fisch")
+
+local Section = Tab:NewSection("Fisch")
+
+
+Section:NewButton("XD", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/thmaus12/fisch/refs/heads/main/scriptmausrb"))()
+end)
+
 local Tab = Window:NewTab("MM2")
 
 local Section = Tab:NewSection("Murder Mystery 2")
