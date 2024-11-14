@@ -127,18 +127,13 @@ Section:NewButton("Vertex", "ButtonInfo", function()
 end)
 
 
-Section:NewButton("YARHM", "ButtonInfo", function()
+Section:NewButton("Yarhm", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
 end)
 
 
 Section:NewButton("Xhub", "ButtonInfo", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2'))()
-end)
-
-
-Section:NewButton("Vynixu's", "ButtonInfo", function()
-    loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()()
 end)
 
 local Tab = Window:NewTab("Other")
