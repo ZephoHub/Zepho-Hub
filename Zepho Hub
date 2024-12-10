@@ -157,7 +157,7 @@ end)
 
 
 Section:NewButton("Universal Aimbot", "ButtonInfo", function()
-    loadstring(game:HttpGet("pastebin.com/raw/RVc3cvas"))()
+    loadstring(game:HttpGet("pastebin.com/raw/JMH7j6CV"))()
 end)
 
 
