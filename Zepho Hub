@@ -156,11 +156,6 @@ Section:NewButton("Plutonium.lua", "ButtonInfo", function()
 end)
 
 
-Section:NewButton("Universal Aimbot", "ButtonInfo", function()
-    loadstring(game:HttpGet("pastebin.com/raw/JMH7j6CV"))()
-end)
-
-
 Section:NewButton("Name Esp", "ButtonInfo", function()
     loadstring(game:HttpGet("pastebin.com/raw/ARFjYZ4G"))()
 end)
